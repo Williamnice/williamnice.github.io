@@ -1,37 +1,160 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Home - Williamnice</title>
-<style type="text/css">
-	*{padding:0;margin:0;}
-	::selection{background-color:#00ae9d;color:#FFFFFF;}
-	div.main {padding-left:20%;padding-right:20%;}
-	button:hover {padding-left:15px;padding-right:15px;transition: all 0.6s;-webkit-transition: all 0.6s;}
-	button {font-size:16px;transition: all 0.6s;-webkit-transition: all 0.6s;}
+<title>Home - Williamnice : Games,Websites and More...</title>
+<meta charset="utf-8">
+<style>
+*{margin:0;
+    padding:0;
+    transition: margin padding 0.6s;
+    -webkit-transition: margin padding 0.6s;}
+
+.dropbtn {
+    background-color:rgba(0,0,0,0.6);
+    color: white;
+    padding: 18px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-family:Arial;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    -moz-border-radius: 4px;      /* Gecko browsers */
+    -webkit-border-radius: 4px;   /* Webkit browsers */
+    border-radius:4px;            /* W3C syntax */
+        padding-top:5px;
+    padding-bottom:5px;
+    opacity:0.8;
+}
+
+.dropdown-content a {
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    font-size:14px;
+    font-family:Arial;
+    color:#000000;
+        transition: all 0.4s;
+    -webkit-transition: all 0.4s; /* Safari */
+}
+
+.dropdown-content a:hover {
+        background-color:   #3C3C3C;
+    color:#FFFFFF;
+        transition: all 0.4s;
+    -webkit-transition: all 0.4s; /* Safari */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color:  #CE0000;
+}
+
+.bug {
+    background-color:#AE0000;
+    border: none;
+    color: white;
+    padding: 13px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -moz-border-radius: 4px;      /* Gecko browsers */
+    -webkit-border-radius: 4px;   /* Webkit browsers */
+    border-radius:4px;            /* W3C syntax */
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s; /* Safari */
+}
+
+.bug:hover {
+    opacity:0.7;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s; /* Safari */
+}
+
+.bug:active {background-color:#000000;}
 </style>
 </head>
 <body>
-<div style="background-color:#272727;"><br><h1 style="font-family:Cambria;text-align:center;color:#FFFFFF;">WILLIAMNICE STUDIOS</h1><br></div>
 
-<div style="background-image:url(https://s1.ax1x.com/2018/07/27/PUnikQ.jpg);background-size:100% 100%;background-repeat:no-repeat; background-attachment: fixed;">
-<br><br><br><br><br><br><br><br>
-<p style="font-family:微软雅黑;font-size:45px;color:#FFFFFF;text-align:center;">万物皆虚 万事皆允 磨而不磷 涅而不缁</p>
-<p style="font-family:Cambria;font-size:16px;color:#FFFFFF;text-align:center;">NOTHING IS TRUE,EVERYTHING IS PERMITTED.BE CONSISTENT FROM BEGINNING TO END.
-</p>
-<br><br><br><br><br><br><br><br>
+<div id="divbox" style="height:100%;"><br><br><br><br><br><br><br><br><br><br><br><br><br>  <p style="text-align:center;"><img src="https://s1.ax1x.com/2018/07/31/PdqK61.png" width="320px"></p> <br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+<script language="javascript">
+function codefans(){
+var box=document.getElementById("divbox");
+box.style.display="none"; 
+}
+setTimeout("codefans()",1400);
+</script>
+
+<div style="background-color:#AE0000;"><p style="font-size:5px"><br></p></div>
+<div style="background-image:url(http://ps3.tgbus.com/UploadFiles/201005/20100519155720798.jpg);background-size:100% 100%;">
+<div class="dropdown">
+  <button class="dropbtn">WILLIAMNICE'S PROFILE</button>
+</div>
+<div class="dropdown"  style="float:right;">
+  <button class="dropbtn">LINKS</button>&nbsp
+  <div class="dropdown-content">
+    <a href="/index.html">覆灭世界</a>
+    <a href="/index.html">玄派网</a>
+    <a href="/index.html">人民网</a>
+  </div>
+</div>
+
+<div class="dropdown"  style="float:right;">
+  <button class="dropbtn">JOBS</button>&nbsp
+  <div class="dropdown-content">
+    <a href="/index.html">寻求合作</a>
+    <a href="/index.html">加入我们</a>
+  </div>
+</div>
+
+
+<div class="dropdown"  style="float:right;">
+  <button class="dropbtn">WORKS</button>&nbsp
+  <div class="dropdown-content">
+    <a href="/index.html">刺杀羊叫兽（早期作品，已丢失）</a>
+    <a href="/index.html">猪头怪历险记（早期作品，已丢失）</a>
+    <p style="font-family:微软雅黑;font-size:11px;text-align:center;"><br>更多作品敬请期待</p>
+  </div>
+</div>
+
+
+<div class="dropdown"  style="float:right;">
+  <button class="dropbtn">ABOUT</button>&nbsp
+  <div class="dropdown-content">
+    <a href="/index.html">关于我们</a>
+    <a href="/index.html">新闻中心</a>
+  </div>
+</div>
+
+
+<div class="dropdown"  style="float:right;">
+  <a href="/index.html"><button class="dropbtn">HOME</button></a>&nbsp
+</div>
+<br><br><br><br><br><br><br><br><br><br><p style="font-size:48px;font-family:微软雅黑;color:#FFFFFF;text-align:center;text-shadow: 1px 1px 1px #CE0000;letter-spacing:5px;">万物皆虚 万事皆允 磨而不磷 涅而不缁</p><br><p  style="text-align:center;"><a href="#"><button class="bug">发展历程</button></a>&nbsp&nbsp<a href="#"><button class="bug">加入我们</button></a></p><br><br><br><br><br><br><br><br><br><br>
 </div>
 <br><br>
-<div class="main">
-	<h1 style="font-family:Cambria;">ABOUT WILLIAMNICE</h1><br>
-	<p style="font-family:Cambria;font-size:20px;color:	#7B7B7B;"><b>Williamnice Studios</b> was founded in 2017.There's only a member called <b>Williamnice</b> in this studio.At Williamnice,we make <b>games</b>,<b>websites</b> and other interesting and meaningful things.Now,be a member of us!mailto:ysh666@aliyun.com.</p><br>
-	<h1 style="font-family:Cambria;">OUR WORKS</h1><br>
-	<p style="font-family:Cambria;font-size:20px;color:	#7B7B7B;">No Data</p><br>
-	<h1 style="font-family:Cambria;">CONTACT US</h1><br>
-	<p style="font-family:Cambria;font-size:20px;color:	#7B7B7B;">E-Mail:<a href="mailto:ysh666@aliyun.com"><button>ysh666*aliyun.com</button></a><br>Lofter:<a href="http://Williamnice.lofter.com/"><button>@williamnice</button></a><br>RPG BLUE：<a href="#"><button>Williamnice</button></a></p><br>
-	<h1 style="font-family:Cambria;">FRIENDS</h1><br>
-	<p style="font-family:Cambria;font-size:20px;color:	#7B7B7B;"><a href="http://rpgmv.vip/forum.php"><button>RPG MV社区</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a>&nbsp&nbsp<a href="#"><button>#</button></a></p><br>
-</div>
-<br><br>
-<div style="background-color:#272727;"><br><p style="font-family:Cambria;font-size:15px;color:#FFFFFF;text-align:center;">© 2017 - 2018 Williamnice Studios All Right Reserved.<br><a href="#"><button>View On Github</button></a>&nbsp&nbsp<a href="#"><button>Terms</button></a>&nbsp&nbsp<a href="#"><button>Private</button></a></p><br></div>
+<div style="padding-left:10%;padding-right:10%;">
+<p style="font-size:35px;font-family:微软雅黑;color:#000000;text-align:center;text-shadow: 0.6px 0.6px 0.6px #CE0000;letter-spacing:5px;">详细信息</p><br><br>
+<iframe src="/NewsList.html" width="100%" height="500px" frameborder="0"></iframe>
+</div><br><br>
+<div style="background-color:#AE0000;"><p style="font-size:5px"><br></p></div>
+<div style="background-color:#272727;text-align:center;font-size:14px;font-family:Arial;color:#FFFFFF;line-height:180%"><br><p>COPYRIGHT © 2018 WILLIAMNICE STUDIOS OFFICAL SITE. ALL RIGHT RESERVED.<br>HOSTED ON <a href="https://github.com/" style="color:#FFFFFF;" target= _blank >GITHUB</a>.&nbspPOWERED BY <a href="https://WILLIAMNICE.github.io/" style="color:#FFFFFF;" target= _blank >WILLIAMNICE</a>.</p><br></div>
 </body>
 </html>
