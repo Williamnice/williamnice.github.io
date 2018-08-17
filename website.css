@@ -2,6 +2,8 @@
 
 *{margin:0;
     padding:0;
+	transition:0.5s;
+	-webkit-transition:0.5s;
 }
 
 
@@ -21,7 +23,7 @@
 }
 
 .dropdown-content {
-    display: none;
+    display: none;opacity:0;
     position:absolute;
     background-color:#FFFFFF;
     box-shadow:1px 1px 20px #ADADAD;
@@ -48,6 +50,7 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+	opacity:1.0;
 }
 
 .dropdown:hover .dropbtn {
