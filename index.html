@@ -1,68 +1,204 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome - Williamnice</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="/website.css">
+  <title>Williamnice -万物皆虚，万事皆允</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+  <!-- 新 Bootstrap4 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+ 
+<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+ 
+<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    /*定义滚动条高宽及背景
+
+ 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar
+
+{
+
+    width:5px;
+
+    height:5px;
+
+    background-color:#F5F5F5;
+
+}
+
+/*定义滚动条轨道
+
+ 内阴影+圆角*/
+::-webkit-scrollbar-track
+
+{
+
+
+    background-color:#F5F5F5;
+ 
+
+}
+
+/*定义滑块
+
+ 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb
+
+{
+
+
+
+
+    background-color:#555;
+
+}
+    
+    *::selection {
+    background-color:#D2E9FF  ;
+}
+ 
+*::-moz-selection {
+    background-color#D2E9FF ;
+}
+ 
+*::-webkit-selection {
+    background-color:#D2E9FF  ;
+}
+
+.x{padding:4px 10px;color:white;background-color:royalblue;font-size:16px;text-decoration:none;border-radius:4px;}
+.x:hover{;color:white;background-color:royalblue;text-decoration:none;}
+
+.btn:active {box-shadow:none;}
+.btn:focus {box-shadow:none;}
+.btn-info {border-radius:0;outline:none;border:none;}
+.btn-info:hover{background-color:#00FFFF ;}
+
+.dropdown-menu {border-radius:0;border-top:solid 5px #cd9a5b;padding:0;box-shadow:none;outline:none;background-color:rgba(0, 0, 0, 0);box-shadow: 2px 2px 5px rgb(0, 0, 0,0.3);}
+.dropdown-item{padding: 13px 10px;background-color:white;color:black;font-size:14px;transition:0.1s;}
+.dropdown-item:hover{color:#c1a173 ;transition:0.1s;}
+
+.list-group-item {border:none;border-radius:0;}
+.card {border-radius:0;border:none;}
+.list-group-item-action:hover{color:blue;background-color:white;}
+.list-group-item-action:focus{background-color:white;}
+.list-group-item-action:active{background-color:white;}
+
+biaoq{font-size:12px;}
+biaos{font-size:16px; color:grey;text-decoration:bold;}
+biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
+
+.xuanzhong {color:#cd9a5b;}
+.btn:hover{color:#cd9a5b;}
+
+  </style>
+
 </head>
 <body>
 
+ <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-0">
+      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+       
+        <img src="https://s1.ax1x.com/2022/05/17/OhjrxP.png" height="36px">
+      </a>
 
-<div style="background-color:#272727;width:100%;position:fixed;">
-	<div class="dropdown" style="padding-left:50px;padding-top:10px;"><p style="font-family:title;font-size:35px;color:#ffffff;">Williamnice</p></div>
-<div class="dropdown"  style="padding-left:40px;">
-  <a href="index.html"><button class="dropbtn">HOME</button></a>
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/"  class="btn  xuanzhong"> 网站首页 </a></li>
+         <li class="nav-item"><a href="/page2.html"  class="btn   " data-bs-toggle="dropdown"> 作品列表 </a>
+ <div class="dropdown-menu" >
+    <a class="dropdown-item" target="_blank" href="/page2.html">刺杀杨教授·2018</a>
+    <a class="dropdown-item" target="_blank" href="/page2.html">刺杀杨教授贺岁版</a>
+    <a class="dropdown-item" target="_blank" href="/page2.html">刺杀杨教授飞跃2019特别版</a>
+    <a class="dropdown-item" target="_blank" href="/page2.html">刺杀杨教授2</a>
+    <a class="dropdown-item" target="_blank" href="/page2.html">刺杀杨教授3</a>
+    
+
+  </div>
+         </li>
+          <li class="nav-item"><a href="/page4.html"  class="btn  "> 关于我们 </a></li>
+       
+ 
+        
+        <li class="nav-item"><a href="/page5.html" class="btn " data-bs-toggle="dropdown"> 友情链接 </a>
+        <div class="dropdown-menu" >
+    <a class="dropdown-item" target="_blank" href="https://www.jl.gov.cn">吉林省人民政府</a>
+    <a class="dropdown-item" target="_blank" href="https://www.jlaod.com">吉林敖东药业集团</a>
+    
+
+  </div></li>
+
+      </ul>
+    </header>
+  </div>  
+  
+<!-- 轮播 -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+ 
+<img src="https://img1.imgtp.com/2022/05/29/ZXQAyKrO.png" width="100%">
 </div>
 
-<div class="dropdown">
-  <button class="dropbtn">ABOUT</button>
-  <div class="dropdown-content">
-    <a href="Introduce.html">Introduce</a>
-    <a href="Support.html">support</a>
+
+
+
+  <div style="margin-left:8%;margin-right:8%;">
+    <br>
+  <div class="card ">
+    <div class="card-header text-dark  bg-white"><h5>公司动态</h5></div>
+    <div class="card-body "> 
+      <a href="/articles/2022-05-22-01.html" class="list-group-item list-group-item-action" target="_blank"><biaos>2022-05-22 [未归档]</biaos>  声明：本工作室与游戏《池钓离吻花》无关 </a>
+<a href="https://game.163.com/fcm/" class="list-group-item list-group-item-action" target="_blank"><biaos>2021-09-24 [未归档]</biaos>  网络游戏行业防沉迷自律公约 </a>
+
+      <a href="/articles/2019-03-16-01.html" class="list-group-item list-group-item-action" target="_blank"><biaos>2019-03-16 [业务公告]</biaos>  业务调整公告 </a>
+
+      <a href="/articles/2018-05-09-01.html" class="list-group-item list-group-item-action" target="_blank"><biaos>2018-05-09 [业务公告]</biaos>  关于游戏下线的通知 </a>
+</div>
+
+
+
+
+ 
+    </div>
   </div>
 </div>
 
 
-
-<div class="dropdown">
-  <button class="dropbtn">WORKS</button>
-  <div class="dropdown-content">
-    <a href="Games.html">games</a>
-    <a href="#">others</a>
-  </div>
+    </div> 
 </div>
-
-
-<div class="dropdown" >
-  <a href="http://williamnice.lofter.com/" target=_blank><button class="dropbtn">BLOG</button></a>
-</div>
-
-
-<div class="dropdown">
-  <button class="dropbtn">MORE LINKS</button>
-  <div class="dropdown-content">
-  	<a href="https://store.steampowered.com/" target=_blank>Steampowered</a>
-  	<a href="http://rpgmv.vip/forum.php" target=_blank>rpgmakermv</a>
-  </div>
-</div>
-
-<div class="dropdown" style="float:right;">
-  <a href="China.html" target=_blank><button class="dropbtn" style="font-family:微软雅黑"><i class="fa fa-globe"></i> 切换至简体中文</button></a>
-</div>
-
 
 </div>
 
 
-<div style="background-color:#000000;color:#ffffff;font-family:title;font-size:52px;text-align:center;"><br><br><br><br><p>nothing is true , everything is permitted.</p><p style="font-size:30px;font-family:bar;">I depend on the fun things in life.</p><p><a href="Introduce.html"><button class="bug">Learn More</button></a></p><br><br><br></div>
+<br>
+<div class="mt-2 p-2" style="background-color:#3C3C3C ;">
+  <p style="font-size:12px;text-align:center;color:white;margin-top:6px;margin-bottom:6px;">
+    <a href="" target="_blank" style="color:white;">网站首页</a> | 
+    <a style="color:white;"  href="#">作品列表</a> | 
+  <a style="color:white;"  href="#">关于我们</a> | 
+    
+<a style="color:white;"  href="#">友情链接</a>
+  </p>
+</div>
+<div class="p-2" style="background-color:#272727;">
 
-<div style="background-color:#000000;color:#ffffff;font-family:title;font-size:50px;text-align:center;"><br><br><p>Game's making and create</p><p style="font-size:30px;font-family:bar;">i love creating games,especially rpg games and puzzle games.</p><p><a href="Games.html"><button class="bug">game list</button></a></p><br><br><br></div>
+    <p style="color:grey;text-align:center;font-size: 12px;padding-top:10px;">
+      © 2018-2021  信息技术发展研究中心 版权所有<br>地址：吉林省长春市南关区人民大街11526号 | 邮编：130001 | 联系电话：<br>吉ICP备31150427号
+        </p> 
+  
+   <p style="text-align:center;">
+<img src="https://img1.imgtp.com/2022/05/29/pthGnoKR.png" height="25px" style="opacity:0.4;">
+   </p> 
+   
+    </div>
 
-<div style="background-color:#000000;color:#ffffff;font-family:title;font-size:50px;text-align:center;"><br><br><br><p>Website's design and build</p><p style="font-size:30px;font-family:bar;">help you make beautiful websites,generally for free!</p><p><button class="bug">contact me</button></p><br><br><br></div>
 
-<div style="background-color:#000000;color:#ffffff;font-family:title;font-size:52px;text-align:center;"><br><br><br><br><p>So...Why doesn't we make a friend?</p><p style="font-size:30px;font-family:bar;">NOW,MAKE A FRIEND WITH ME!</p><p><a href="https://steamcommunity.com/id/williamnice" target=_blank><button class="bug"><i class="fa fa-steam-square"></i></button></a><a href="mailto:ysh666@aliyun.com"><button class="bug"><i class="	fa fa-envelope"></i></button></a></p><br><br><br></div>
-
-<div style="background-color:#272727;text-align:center;font-size:16px;font-family:bar;color:#FFFFF0;padding-top:40px;padding-bottom:40px;"><p>copyright © 2017-2067 williamnice studios all right reserved.</p><p>Design by williamnice (2017)</p></div>
-<script type="text/javascript" src="https://js.users.51.la/19592261.js"></script>
 </body>
 </html>
