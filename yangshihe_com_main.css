@@ -1,28 +1,27 @@
-::selection {background:#20B2AA	;color: white;}
-* {font-family:苹方,Pingfang,Pingfang SC,微软雅黑,Microsoft Yahei,Arial,Tahoma,sans-serif;transition: 0.2s;}
+* {font-family:'微軟正黑體','Microsoft JhengHei UI','Microsoft JhengHei',Sans-serif;transition: 0.2s;}
 nav.navbar {margin:0;padding:0;position: absolute;top:0;width:100%;z-index: 9999;}
 li.nav-item {padding:0px 20px;margin:0;}
 a.nav-link {line-height:330%;margin:0;padding:0;font-size:18px;color:white;opacity:0.7;}
 a.navbar-brand {margin:0;padding:0;margin-left:10%;font-size:30px;line-height:100%;}
 
 li.nav-item:hover a.nav-link {color:white;opacity: 1.0;}
-li.active a.nav-link {opacity: 1.0;color: #33a3dc;
+li.active a.nav-link {opacity: 1.0;color: #51B3E1;
 }
 div.indextop {width:100%;height:120vh;background-image: url('https://1.s140i.faiscm.com/2/AIwBCAAQAhgAIPL3rN0FKKyy87EHMIAPOIAK.jpg');background-attachment: fixed;}
 
-div.pagetwo {width:100%;height:20vh;background-image: url('https://1.s140i.faiscm.com/2/AIwBCAAQAhgAIM7H59UFKND_17kEMIAPOLoH.jpg');background-attachment: fixed;}
-
+div.pagetwo {width:100%;height:25vh;background-image: url('https://1.s140i.faiscm.com/2/AIwBCAAQAhgAIM7H59UFKND_17kEMIAPOLoH.jpg');background-attachment: fixed;background-size: 100% 100%;}
+h2 {font-weight: bold;color: black;}
 
 div.navleft {background-image: linear-gradient(to bottom, #272727, #003D79	);}
-div.navleft p{margin:0;padding: 0;font-size:30px;line-height:400%;margin-left:30px;color:white;}
-div.navleft span {font-size:16px;margin-left:10px;}
-div.navlistcommon {background:#f0f0f0;margin: 0;padding:0;padding-left:30px;font-size:18px;line-height:300%;}
-div.navlistcommon a {color:#272727;text-decoration:none;}
-div.navlistcommon:hover {background-color:#33a3dc;}
-div.navlistcommon:hover a {color:white;}
+div.navleft p{margin:0;padding: 0;font-size:30px;line-height:400%;margin-left:30px;color:white;font-weight: bold;}
+div.navleft span {font-size:16px;margin-left:10px;font-weight: normal;}
+div.navlistcommon {background:#f0f0f0;margin: 0;padding:0;padding-left:30px;font-size:18px;line-height:300%;transition: none;}
+div.navlistcommon a {color:#272727;text-decoration:none;display: block;transition: none;}
+div.navlistcommon:hover a {color:white;transition: none;}
+div.navlistcommon:hover {background:#33a3dc;transition: none;}
 
-div.navlistactive {background:#33a3dc;margin: 0;padding:0;padding-left:30px;font-size:18px;line-height:300%;}
-div.navlistactive a {color:white;text-decoration:none;}
+div.navlistactive {background:#2292C6;margin: 0;padding:0;padding-left:30px;font-size:18px;line-height:300%;}
+div.navlistactive a {color:white;text-decoration:none;display: block;}
 
 a {color:#33a3dc;text-decoration: none;}
 a:hover {text-decoration: underline;color:#272727;}
@@ -31,23 +30,30 @@ div.indextop h1{font-weight: bold;font-size:50px;color:white;text-align: center;
 div.foot {text-align:center;padding:20px 0px;}
 div.pagetop {background: #343a40;height: 70px;margin: 0;padding: 0;}
 
-div.col-sm-8 p { color:#6c6c6c; line-height: 300%;}
+div.col-sm-8 p { color:#3c3c3c; line-height: 230%;font-size: 17px;}
 
 td, tr, tbody, thead, table {transition:none;}
 
 
 /*PC端*/
 @media (min-width: 768.1px) {
-li.nav-item {margin:0 10px;}
+        ::selection {background:#40bbe1;color:white;}
+
+  li.nav-item {margin:0 10px;}
 div.indextop {background-size:100% auto;}
 div.row {margin:30px 0px;padding: 0;}
 div.col-sm-4 {padding-left:10%;padding-right:30px;}
-div.col-sm-8 {padding-right:10%;padding-left:30px;min-height:90vh;}
-
+div.col-sm-8 {padding-right:10%;padding-left:30px;min-height:90vh;}\
 }
 
 /*移动端*/
 @media (max-width: 768px) {
+*{
+  -webkit-user-select: none; /* 针对Chrome和Safari */
+  -moz-user-select: none; /* 针对Firefox */
+  -ms-user-select: none; /* 针对Internet Explorer */
+  user-select: none; /* 标准语法 */
+}
 li.nav-item {width:100%;}
 div.indextop {background-size:auto 100%;}
 nav.navbar {background:#343a40;}
@@ -95,3 +101,5 @@ li.nav-item {padding:0;}
 
 div.foot {background-color: #343a40;color:white;margin:0;line-height:100%;font-size:15px;}
 div.foot span{margin:0;padding:0;opacity: 0.7;}
+
+
