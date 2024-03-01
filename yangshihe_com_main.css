@@ -68,7 +68,7 @@ a.navbar-brand img {height:55px;}
 div.pagetop {height: 55px;}
 a.nav-link {line-height:280%;text-indent:10%;}
 li.nav-item {padding:0;}
-div.e-changelanguage-div {position:fixed;right:20%;top: 9px;color:white;}
+div.e-changelanguage-div {display:none;}
 
 }
 
