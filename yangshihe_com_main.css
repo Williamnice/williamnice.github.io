@@ -14,7 +14,7 @@ div.pagetwo {width:100%;height:20vh;background-image: url('https://1.s140i.faisc
 
 
 div.navleft {background-image: linear-gradient(to bottom, #272727, #003D79	);}
-div.navleft p{margin:0;padding: 0;font-size:40px;line-height:400%;margin-left:30px;color:white;}
+div.navleft p{margin:0;padding: 0;font-size:30px;line-height:400%;margin-left:30px;color:white;}
 div.navleft span {font-size:16px;margin-left:10px;}
 div.navlistcommon {background:#f0f0f0;margin: 0;padding:0;padding-left:30px;font-size:18px;line-height:300%;}
 div.navlistcommon a {color:#272727;text-decoration:none;}
@@ -33,6 +33,9 @@ div.pagetop {background: #343a40;height: 70px;margin: 0;padding: 0;}
 
 div.col-sm-8 p { color:#6c6c6c; line-height: 300%;}
 
+td, tr, tbody, thead, table {transition:none;}
+
+
 /*PC端*/
 @media (min-width: 768.1px) {
 li.nav-item {margin:0 10px;}
@@ -49,9 +52,13 @@ li.nav-item {width:100%;}
 div.indextop {background-size:auto 100%;}
 nav.navbar {background:#343a40;}
 div.row {margin:20px 5%;}
-div.navlistcommon {display: none;}
-div.navlistactive {display: none;}
+div.navlistcommon {display:none; }
+div.navlistactive {display:none; }
 div.col-sm-8 {min-height:60vh;}
+a.navbar-brand img {height:55px;}
+div.pagetop {height: 55px;}
+a.nav-link {line-height:280%;text-indent:10%;}
+li.nav-item {padding:0;}
 }
 
 /*Hover.css*/
