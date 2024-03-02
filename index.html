@@ -7,19 +7,27 @@
   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
-  <script type="text/javascript">
-      var audio = document.getElementsByTagName("audio")[0];
-  audio.volume = 2.0; 
-  window.onload = function() {
-    audio.play();
-  }
-  </script>
   <link rel="stylesheet" type="text/css" href="yangshihe_com_main.css">
   <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script type="text/javascript">
+                                        //首页视频
+                                        document.getElementById("videoN").src = "http://www.ccutchi.com/system_dntb/attached/media/sp2021316133846.mp4";
+                                        function doclick(val) {
+                                            $.ajax({
+                                                type: "get", //用GET方式传输
+                                                dataType: "text", //数据格式:JSON
+                                                url: '../getSrc.aspx?n=' + val, //目标地址
+                                                success: function (data) {
+                                                    if (data != "") {
+                                                        document.getElementById("videoN").src = "http://www.ccutchi.com/system_dntb/attached/media/" + data;
+                                                    }
+                                                }
+                                            });
+                                        }
+                                    </script>
 </head>
 <body class="animate__animated animate__fadeIn">
-<audio src="back.mp3" autoplay></audio>
 <nav class="navbar navbar-expand-md">
   
   <a class="navbar-brand"><img src="https://13511974.s21i.faiusr.com/4/10/ABUIABAEGAAgye2HrwYolrO0pQIwtwY4yAE.png" height="70px"></a>
@@ -50,5 +58,11 @@
 
 
 <div class="foot"><span>© 2020-2024 yangshihe.com all right reserved.</span></div>
+
+
+<video id="videoN" width="100%" autoplay="" controls="" class="spxw-t-1" src="http://www.ccutchi.com/system_dntb/attached/media/sp2021316133846.mp4" style="display: none;"></video>
+
+
+                                    
 </body>
 </html>
