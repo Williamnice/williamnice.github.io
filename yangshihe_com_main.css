@@ -73,7 +73,8 @@ nav.navbar {background:#343a40;}
 div.row {margin:20px 5%;}
 div.navlistcommon {display:none; }
 div.navlistactive {display:none; }
-div.col-sm-8 {min-height:60vh;}
+div.col-sm-8 {min-height:60vh;padding:0;}
+div.col-sm-4 {padding:0;}
 a.navbar-brand img {height:55px;}
 div.pagetop {height: 55px;}
 a.nav-link {line-height:280%;text-indent:10%;}
