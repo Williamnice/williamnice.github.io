@@ -70,7 +70,7 @@ div.col-sm-8 {padding-right:10%;padding-left:30px;min-height:90vh;}
 }
 li.nav-item {width:100%;}
 div.indextop {background-size:auto 100%;}
-nav.navbar {background:#272727;}#343a40
+nav.navbar {background:#272727;border-colo:#343a40;}
 div.row {margin:20px 5%;}
 div.navlistcommon {display:none; }
 div.navlistactive {display:none; }
