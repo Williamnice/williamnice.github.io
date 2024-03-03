@@ -33,7 +33,7 @@ a:hover {text-decoration: underline;color:#272727;}
 
 div.indextop h1{font-weight: bold;font-size:70px;color:white;text-align: center;margin:0;padding-top:55vh;}
 div.foot {text-align:center;padding:20px 0px;}
-div.pagetop {background: #343a40;height: 70px;margin: 0;padding: 0;}
+div.pagetop {background: #272727;height: 70px;margin: 0;padding: 0;}
 
 div.col-sm-8 p { color:#3c3c3c; line-height: 230%;font-size: 17px;}
 
@@ -118,8 +118,8 @@ div.cbnr {box-shadow:none;}
 }
 
 
-div.foot {background-color: #343a40;color:white;margin:0;line-height:100%;font-size:15px;}
-div.foot span{margin:0;padding:0;opacity: 0.7;}
+div.foot {background-color: #272727;color:white;margin:0;line-height:100%;font-size:15px;}
+div.foot span{margin:0;padding:0;opacity: 1.0;color:lightgrey;}
 
 /*
 部分樣式設計參考版權：
