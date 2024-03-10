@@ -1,7 +1,10 @@
 <html>
 <head><title>404 Not Found</title></head>
 <body>
-<center><h1>404 Not Found</h1></center>
-<hr><center>vvs</center>
+<h1>404 Not Found</h1>
+<p>The requested URL <span id="urls"></span> was not found on this server.</p>
+<script type="text/javascript">
+    document.getElementById("urls").innerText += window.location.href;
+</script>
 </body>
 </html>
