@@ -17,7 +17,7 @@ document.writeln("<div class=\"qbwz_bt\"><b>全部文章</b></div>");
 document.writeln("<div class=\"qbwz_zw\">");
 document.writeln("	");
 document.writeln("	<div class=\"wzzy\" onclick=\"window.location.href=\'b-a-1\'\">");
-document.writeln("		<h2><wzzybt>测试文章</wzzybt><br><wzzyzy>摘要：测试文章-yangshihe.com博客开通了！</wzzyzy><wzzyrq>2024-03-08</wzzyrq></h2>");
+document.writeln("		<h2><wzzybt>入门c语言：高速公路超速处罚</wzzybt><br><wzzyzy>摘要：题干按照规定，在高速公路上行使的机动车，达到或超出本车道限速的10%则处...</wzzyzy><wzzyrq>2024-03-08</wzzyrq></h2>");
 document.writeln("	</div>");
 document.writeln("");
 document.writeln("");
