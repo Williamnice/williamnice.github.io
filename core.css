@@ -43,3 +43,7 @@
 		.articlezw p.zz {text-align: center;font-size:13px;color:grey;background:#f0f0f0;margin:0;padding:10px 0px;line-height:100%;}
 		.articlezw .zwen {padding:40px 20px;}
 		.articlezw .zwen h2 {font-size:18px;font-weight:normal;color:#272727;font-family:仿宋,宋体,sans-serif;line-height:200%;}
+
+.zwen p {font-family:仿宋,sans-serif;font-weight:bold;font-size:20px;text-align:left;}
+  .codetable {padding:15px;background:grey;border-radius:9px;line-height:150%;color:black;text-shadow:2px 2px 2px #272727;}
+  .codetable code {color:white;font-size:18px;}
