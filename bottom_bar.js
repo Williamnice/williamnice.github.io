@@ -23,7 +23,7 @@ document.writeln("<body>");
 document.writeln("<div class=\"b row\">");
 document.writeln("  <div class=\"col-lg-4\"><br><img src=\"https://13511974.s21i.faiusr.com/2/10/ABUIABACGAAgoeeyrwYo6NqPqAMwlgE4lgE.jpg\" height=\"140px\" style=\"border-radius:200px;\"></div>");
 document.writeln("  <div class=\"col-1\"><img src=\"https://13511974.s21i.faiusr.com/4/10/ABUIABAEGAAg9YazrwYo5NvvlQcwfziaAw.png\" height=\"200px\" width=\"2px\"></div>");
-document.writeln("  <div class=\"col-lg-3 eessd\"><h2>YANG SHIHE<br><jsf>技术、生活与分享</jsf></h2><h3><jsk>个人博客地址：https://www.yangshihe.com/<br>E-mail：hello@yangshihe.com</jsk></h3></div>");
+document.writeln("  <div class=\"col-lg-3 eessd\"><h2>YANG SHIHE<br><jsf>代码、文学与生活</jsf></h2><h3><jsk>个人博客地址：https://www.yangshihe.com/<br>E-mail：hello@yangshihe.com</jsk></h3></div>");
 document.writeln("</div>");
 document.writeln("<div class=\"a\">");
 document.writeln("  © 2024 Yangshihe.com 全站遵照 CC BY-SA 4.0");
