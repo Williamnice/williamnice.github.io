@@ -11,7 +11,7 @@ document.writeln("</head>");
 document.writeln("<body>");
 document.writeln("<nav class=\"navbar navbar-expand-lg navbar-dark\">");
 document.writeln("  <a class=\"navbar-brand touxiang\" href=\"/\"><img src=\"https://13511974.s21i.faiusr.com/2/10/ABUIABACGAAgoeeyrwYo6NqPqAMwlgE4lgE.jpg\" height=\"40px\" style=\"border-radius:100px;\"></a>");
-document.writeln("    <a class=\"navbar-brand biaoti\" href=\"/\">Yang Shihe\'s Blog</a>");
+document.writeln("    <a class=\"navbar-brand biaoti\" href=\"/\">Yangshihe.com</a>");
 document.writeln("  <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"offcanvas\" data-bs-target=\"#navbarOffcanvasLg\" aria-controls=\"navbarOffcanvasLg\" aria-label=\"Toggle navigation\">");
 document.writeln("    <span class=\"navbar-toggler-icon\"></span>");
 document.writeln("  </button>");
