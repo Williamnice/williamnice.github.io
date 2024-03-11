@@ -35,7 +35,7 @@ document.writeln("             ");
 document.writeln("            </ul>");
 document.writeln("          </li>");
 document.writeln("          <li class=\"nav-item\">");
-document.writeln("            <a class=\"nav-link\" href=\"/about\">关于我</a>");
+document.writeln("            <a class=\"nav-link\" href=\"/b-a-7\">域名出售</a>");
 document.writeln("          </li>");
 document.writeln("        </ul>");
 document.writeln("        ");
